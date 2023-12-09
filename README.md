@@ -4,13 +4,14 @@ Using Puppeteer to measure response times and capturing traces.
 
 ## Prerequisites
 
-- node
-- Puppeteer
 - .env file with configurations for url to visit and number of iterations (See `.env.example` for reference)
 
 ## Usage
 
 ```bash
+npm install
+install depndencies
+
 npm start
 This will launch Puppeteer, visit the specified URL, and measure response times for the specified number of iterations.
 ```
